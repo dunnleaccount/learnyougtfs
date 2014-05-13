@@ -2,7 +2,7 @@ The basics of downloading and cleaning gtfs data.
 
 ## Downloading Data
 
-1. `Use get_agencies.py` (or whatever other method you like) to snag a list of all of the agencies with GTFS:
+1. Use `python get_agencies.py` (make sure python is installed or whatever other method you like) to snag a list of all of the agencies with GTFS:
 
 `wget http://www.gtfs-data-exchange.com/api/agencies -O agencies.json`
 
