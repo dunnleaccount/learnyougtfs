@@ -1,4 +1,4 @@
-## Basic Setup
+## Basic Setup (Linux)
 
 1. Make sure Java 1.6 is installed
   * Open a command prompt/terminal and type `java -version`
