@@ -38,7 +38,7 @@ This validation tool can be found at https://code.google.com/p/googletransitdata
 
 `python feedvalidator.py path/to/gtfs.zip`
 
-4. Errors will pop up in a your web browser if you are using terminal on a local machine and not remote ssh.
+ * Errors will pop up in a your web browser if you are using terminal on a local machine and not remote ssh.
 
 ### Conveyal Validator
 
