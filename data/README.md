@@ -25,6 +25,7 @@ The basics of downloading and cleaning gtfs data.
     * pdf license agreements
   * Sometimes the data is super messy
   * Measure twice, cut once?
+  * One other reason: https://github.com/OneBusAway/onebusaway-application-modules/wiki/Developer-Guide#common-problems-building-bundle
 
 ### GTFS Feed Validator
 
@@ -37,7 +38,7 @@ This validation tool can be found at https://code.google.com/p/googletransitdata
 
 `python feedvalidator.py path/to/gtfs.zip`
 
-4. Errors will pop up in a your web browser
+4. Errors will pop up in a your web browser if you are using terminal on a local machine and not remote ssh.
 
 ### Conveyal Validator
 
