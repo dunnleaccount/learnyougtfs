@@ -28,6 +28,8 @@ java -classpath onebusaway-gtfs-hibernate-cli-1.3.3.jar:hsqldb.jar \
  ../data/google_transit.zip
 ```
 
+Important! You will need to run the above command 2 times, the first time to create the tables and the second time is to insert the data. You can can copy and paste the texts.
+
 After a successful gtfs import, run `java -jar sqltool.jar` to open the sql tools command line interface.
 
 To connect to the `gtfs` database in sql tools, type `\j user pass jdbc:hsqldb:file:gtfs`
