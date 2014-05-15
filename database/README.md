@@ -6,8 +6,6 @@ The basics of putting GTFS into a database with the [OneBusAway GTFS Hibernate C
 
 2. Create a database called `gtfs` with the sql flavor of your choice.  If you're not familiar with or don't have a database software installed, the easiest to use is probably just HSQLDB (does not require setting up a separate database software). 
 
-3. Run hibernate (full documentation is [here](http://developer.onebusaway.org/modules/onebusaway-gtfs-modules/current-SNAPSHOT/onebusaway-gtfs-transformer-cli.html))
-
 ### Generic
 ```bash
 java -classpath onebusaway-gtfs-hibernate-cli-1.3.3.jar:your-database-jdbc.jar \
