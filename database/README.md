@@ -46,3 +46,5 @@ java -classpath onebusaway-gtfs-hibernate-cli-1.3.3.jar:postgresql-9.3-1100.jdbc
  ../data/google_transit.zip
 ```
 
+### Mysql
+(Is similar to Postgresql for details go https://groups.google.com/forum/#!topic/onebusaway-developers/3Qhf7QRU9wI)
