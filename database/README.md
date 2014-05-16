@@ -34,7 +34,8 @@ After a successful gtfs import, run `java -jar sqltool.jar` to open the sql tool
 
 To connect to the `gtfs` database in sql tools, type `\j user pass jdbc:hsqldb:file:gtfs`
 
-### Postgresql (assumes version 9.3 & 9.1.13 unbuntu 12.04. Making sure username and password.)
+### Postgresql. 
+(assumes version 9.3 & 9.1.13 unbuntu 12.04. Making sure username and password.)
 ```bash
 java -classpath onebusaway-gtfs-hibernate-cli-1.3.3.jar:postgresql-9.3-1100.jdbc4.jar \
  org.onebusaway.gtfs.GtfsDatabaseLoaderMain \
