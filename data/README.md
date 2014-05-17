@@ -2,7 +2,7 @@ The basics of downloading and cleaning gtfs data.
 
 ## Downloading Data
 
-1. `Use get_agencies.py` (or whatever other method you like) to snag a list of all of the agencies with GTFS:
+1. Use `python get_agencies.py` (make sure python is installed or whatever other method you like) to snag a list of all of the agencies with GTFS:
 
 `wget http://www.gtfs-data-exchange.com/api/agencies -O agencies.json`
 
@@ -25,6 +25,7 @@ The basics of downloading and cleaning gtfs data.
     * pdf license agreements
   * Sometimes the data is super messy
   * Measure twice, cut once?
+  * One other reason: https://github.com/OneBusAway/onebusaway-application-modules/wiki/Developer-Guide#common-problems-building-bundle
 
 ### GTFS Feed Validator
 
@@ -37,7 +38,7 @@ This validation tool can be found at https://code.google.com/p/googletransitdata
 
 `python feedvalidator.py path/to/gtfs.zip`
 
-4. Errors will pop up in a your web browser
+ * Errors will pop up in a your web browser if you are using terminal on a local machine and not remote ssh.
 
 ### Conveyal Validator
 
